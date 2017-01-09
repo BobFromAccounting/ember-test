@@ -16,7 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+      apiKey: '"AIzaSyDTTy_8yGMasEJkZ5a-5lEhS9klQ5qQGhs"',
+      authDomain: 'sodashop-demo.firebaseapp.com',
+      databaseURL: 'https://sodashop-demo.firebaseio.com',
+      storageBucket: 'sodashop-demo.appspot.com',
+      messagingSenderId: "407016875083"
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
